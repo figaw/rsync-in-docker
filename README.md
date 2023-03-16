@@ -12,8 +12,8 @@ where restarting won't magically fix a misconfiguration
 
 ## Probes
 
-`/tmp/healthy` file, if startup worked
-`/tmp/ready` file, if configured properly
+- `/tmp/healthy` file, if startup worked
+- `/tmp/ready` file, if configured properly
 
 ## Example
 
