@@ -4,8 +4,8 @@
 | ----------- | ----------------------------- | ------- |
 | R_DEST      | sync to                       | -       |
 | R_SRC       | sync from                     | -       |
-| R_INTERVAL  | sync interval seconds         | 60s     |
-| R_STAYALIVE | stay alive if misconfigured\* | -       |
+| R_INTERVAL  | sync interval seconds         | 60      |
+| R_STAYALIVE | stay alive if misconfigured\* | no      |
 
 \* helpful in a container orchestrator like k8s,
 where restarting won't magically fix a misconfiguration
