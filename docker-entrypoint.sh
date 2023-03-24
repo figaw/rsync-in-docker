@@ -46,7 +46,7 @@ else
             info "source and destination are identical"
         else
             info "synchronizing folders"
-            rsync -r /mnt/src/ /mnt/dest/
+            rsync -a -r /mnt/src/ /mnt/dest/
             info "synchronized folders"
         fi
         sleep $R_INTERVAL
